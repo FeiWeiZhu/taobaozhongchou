@@ -1,0 +1,631 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.full {
+  float: left;
+  width: 100%;
+}
+.w1190 {
+  margin: 0 auto;
+  width: 1190px;
+}
+.topNav {
+  border-bottom: 2px solid #00ccce;
+}
+.topNav .topDiv1 {
+  width: 100%;
+  height: 36px;
+  background-color: #f2f2f2;
+}
+.topNav .topDiv1 .topDiv {
+  width: 1190px;
+  height: 36px;
+  margin: 0 auto;
+}
+.topNav .topDiv1 .topDiv .Left {
+  float: left;
+}
+.topNav .topDiv1 .topDiv .Right {
+  float: right;
+}
+.topNav .topDiv1 .topDiv a {
+  line-height: 36px;
+  padding-right: 5px;
+  font-size: 12px;
+  color: #6c6c6c;
+}
+.topNav .topDiv1 .topDiv a:hover {
+  color: #f00;
+}
+.topNav .w1190 {
+  height: 40px;
+}
+.topNav .left {
+  float: left;
+}
+.topNav .right {
+  float: right;
+  position: relative;
+}
+.topNav .right .navA {
+  position: relative;
+}
+.topNav .right .navA .img1 {
+  position: absolute;
+  top: 6px;
+  right: -10px;
+  width: 9px;
+  height: 6px;
+  transition: transform 0.5s;
+  background-image: url("../../../image/1.png");
+}
+.topNav .setFont .bigDiv {
+  width: 146px;
+  height: 40px;
+  margin: 0 0;
+}
+.topNav .setFont .bigDiv .normal.one {
+  position: relative;
+  margin-top: 12px;
+}
+.topNav .setFont .bigDiv .normal.one .img {
+  position: relative;
+  top: 5px;
+  float: right;
+  width: 9px;
+  height: 6px;
+  transition: transform 0.5s;
+  background-image: url("../../../image/1.png");
+}
+.topNav .setFont .bigDiv .normal.one .listDiv {
+  position: absolute;
+  top: 20px;
+  left: -26px;
+  width: 124px;
+  height: 390px;
+  background-color: #fff;
+  z-index: 1;
+  display: none;
+}
+.topNav .setFont .bigDiv .normal.one .listDiv .linkA {
+  float: left;
+  width: 100%;
+  height: 39px;
+  font-size: 14px;
+  line-height: 39px;
+  text-align: center;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px dashed #d2d2d2;
+}
+.topNav .setFont > div {
+  float: left;
+  margin: 12px 0;
+  padding: 0 36px;
+}
+.topNav .setFont > div.normal {
+  border-right: 1px solid #e6e6e6;
+  position: relative;
+}
+.topNav .right.setFont .bigDiv1 {
+  width: 146px;
+  height: 40px;
+  margin: 0 0;
+}
+.topNav .right.setFont .bigDiv1 .normal2 {
+  position: relative;
+  margin-top: 12px;
+}
+.topNav .right.setFont .bigDiv1 .normal2 .listDiv1 {
+  position: absolute;
+  top: 20px;
+  left: -26px;
+  width: 126px;
+  height: 120px;
+  background-color: #fff;
+  z-index: 1;
+  display: none;
+}
+.topNav .right.setFont .bigDiv1 .normal2 .listDiv1 .linkB {
+  float: left;
+  width: 126px;
+  height: 40px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  font-size: 12px;
+  line-height: 40px;
+  text-align: center;
+}
+.facade {
+  padding-top: 20px;
+  background-color: #f2f2f2;
+}
+.facade .w1190 {
+  position: relative;
+}
+.facade .w1190 .left {
+  width: 890px;
+  height: 500px;
+}
+.facade .w1190 .left > #container {
+  position: relative;
+  width: 540px;
+  height: 500px;
+  overflow: hidden;
+}
+.facade .w1190 .left > #container:hover .arrow {
+  display: block;
+}
+.facade .w1190 .left > #container .list {
+  width: 3780px;
+  height: 500px;
+  position: absolute;
+}
+.facade .w1190 .left > #container .list img {
+  float: left;
+}
+.facade .w1190 .left > #container .buttons {
+  position: absolute;
+  left: 220px;
+  bottom: 20px;
+  width: 100px;
+  height: 10px;
+}
+.facade .w1190 .left > #container .buttons span {
+  float: left;
+  margin-right: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #999;
+}
+.facade .w1190 .left > #container .buttons span.on {
+  background-color: #00ccce;
+}
+.facade .w1190 .left > #container .arrow {
+  position: absolute;
+  top: 205px;
+  width: 36px;
+  height: 90px;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: Iconfont;
+  line-height: 90px;
+  color: rgba(255,255,255,0.6);
+  background-color: rgba(0,0,0,0.3);
+  text-align: center;
+  display: none;
+}
+.facade .w1190 .left > #container .arrow#next {
+  right: 0;
+}
+.facade .w1190 .left > #container .arrow:hover {
+  background-color: rgba(0,0,0,0.6);
+}
+.facade .w1190 .left > .container1 {
+  position: absolute;
+  top: 0;
+  left: 540px;
+  width: 350px;
+  height: 500px;
+}
+.facade .right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 290px;
+  height: 660px;
+}
+.facade .right > .title {
+  height: 78px;
+  background-color: #00ccce;
+}
+.facade .right > .title p {
+  float: left;
+}
+.facade .right > .title > .textP {
+  float: left;
+  padding-left: 20px;
+  font-size: 28px;
+  line-height: 78px;
+  color: #fff;
+}
+.facade .right > .title > .textP1 {
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  color: #8dcec7;
+}
+.facade .right > .title > .textP1.one {
+  position: absolute;
+  top: 26px;
+  right: 48px;
+  background-color: #91e8de;
+}
+.facade .right > .title > .textP1.one:hover {
+  background-color: #c8f4ed;
+}
+.facade .right > .title > .textP1.two {
+  position: absolute;
+  top: 26px;
+  right: 20px;
+  background-color: #b4f0e7;
+}
+.facade .right > .title > .textP1.two:hover {
+  background-color: #c8f4ed;
+}
+.facade .right > .rightDiv {
+  position: relative;
+}
+.facade .right > .rightDiv img {
+  float: left;
+  width: 290px;
+}
+.facade .right > .rightDiv p {
+  width: 110px;
+  height: 30px;
+  color: #fff;
+  line-height: 30px;
+  background-color: #fe645a;
+}
+.facade .right > .rightDiv.one p {
+  position: absolute;
+  right: 0;
+  top: 164px;
+}
+.facade .right > .rightDiv.two p {
+  position: absolute;
+  right: 0;
+  top: 358.5px;
+}
+.facade .right > .rightDiv.three p {
+  position: absolute;
+  right: 0;
+  top: 552px;
+}
+.facade .bottom {
+  margin-top: 20px;
+  width: 100%;
+  height: 140px;
+  background-color: #fff;
+}
+.facade .bottom .bottomDiv {
+  width: 1190px;
+  height: 140px;
+  margin: 0 auto;
+}
+.facade .bottom .bottomDiv > div {
+  position: relative;
+  float: left;
+  width: 222px;
+  height: 100%;
+  text-align: center;
+}
+.facade .bottom .bottomDiv > div > .title {
+  margin-top: 45px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #999;
+}
+.facade .bottom .bottomDiv > div > .num {
+  margin-top: 6px;
+  font-size: 30px;
+  line-height: 40px;
+  color: #666;
+}
+.facade .bottom .bottomDiv > div > div {
+  position: absolute;
+  top: 50%;
+  margin-top: -32.5px;
+  width: 1px;
+  height: 65px;
+  transform: rotate(30deg);
+  background-color: #00ccce;
+}
+.hot {
+  height: 634px;
+  background-image: url("../../../image/hot.png");
+  background-position: 50% 0;
+}
+.hot h1 {
+  margin-top: 13px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 78px;
+  color: #fff;
+}
+.hot h2 {
+  text-align: center;
+}
+.hot h2 b {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+}
+.hot h2 > a {
+  display: inline-block;
+  padding: 0 10px;
+  border: 1px solid #fff;
+  font-size: 12px;
+  line-height: 28px;
+  color: #fff;
+  border-radius: 2px;
+}
+.hot h2 > a:hover {
+  background-color: #00ccce;
+  border-color: #00ccce;
+}
+.hot .container {
+  width: 1210px;
+}
+.hot .container .case {
+  position: relative;
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 222px;
+  height: 450px;
+}
+.hot .container .case > .link {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hot .container .case > .link > .title {
+  margin-left: 18px;
+  width: 200px;
+  height: 58px;
+  line-height: 58px;
+  color: #2a343f;
+  font-size: 24px;
+}
+.hot .container .case > .link > .label {
+  margin-top: 15px;
+  margin-left: 18px;
+  width: 138px;
+  height: 35px;
+  font-size: 12px;
+  color: #99a5b4;
+  line-height: 18px;
+}
+.hot .container .case > .link > .section {
+  margin-left: 18px;
+}
+.hot .container .case > .link > .section > .title {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #828c98;
+  line-height: 22px;
+}
+.hot .container .case > .link > .section > .value {
+  font-size: 31px;
+  font-family: Helvetica;
+  color: #00ccce;
+  line-height: 40px;
+}
+.item .w1190 {
+  position: relative;
+  width: 1190px;
+  text-align: center;
+}
+.item .w1190 i {
+  position: absolute;
+  top: 60px;
+  width: 529px;
+  height: 8px;
+  background-image: url("../../../image/6.png");
+}
+.item .w1190 .t1 {
+  position: absolute;
+  top: 60px;
+  left: 0;
+}
+.item .w1190 .t2 {
+  position: absolute;
+  top: 60px;
+  right: 0;
+}
+.item .w1190 h1 {
+  padding-top: 40px;
+  font-size: 28px;
+  line-height: 48px;
+  color: #333;
+}
+.item .w1190 h3 {
+  font-size: 14px;
+  color: #8f8f8f;
+}
+.item .w1190 .fundDiv > a {
+  float: left;
+  display: block;
+  color: #737373;
+}
+.item .w1190 .fundDiv > a .num {
+  font-size: 14px;
+}
+.item .w1190 .fundDiv > a .name {
+  font-size: 20px;
+}
+.item .w1190 .container1 {
+  position: relative;
+  width: 1274px;
+  height: 820px;
+  margin-top: 5px;
+  overflow: visible;
+}
+.item .w1190 .container1 .tA {
+  position: absolute;
+  left: 0;
+  color: #5a5a5a;
+}
+.item .w1190 .container1 .tA .tA1 {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 20px;
+}
+.item .w1190 .container1 .tA .tA2 {
+  font-size: 20px;
+  line-height: 20px;
+}
+.item .w1190 .container1 .case.first {
+  position: relative;
+  float: left;
+  width: 282px;
+  height: 372px;
+  margin-top: 30px;
+  margin-right: 20px;
+  text-align: left;
+}
+.item .w1190 .container1 .case.first img {
+  position: absolute;
+  right: 0;
+}
+.item .w1190 .container1 .case.first div {
+  position: absolute;
+  left: 28px;
+  top: 28px;
+}
+.item .w1190 .container1 .case.first div > .title {
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+}
+.item .w1190 .container1 .case.first div > .sum {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+.item .w1190 .container1 .case.first div > .btn {
+  margin-top: 20px;
+  width: 100px;
+  height: 32px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 32px;
+  color: #00ccce;
+  background-color: #fff;
+}
+.item .w1190 .container1 .link {
+  float: left;
+  width: 282px;
+  height: 372px;
+  margin-top: 30px;
+  margin-right: 20px;
+  text-align: left;
+  border: 1px solid #ededed;
+}
+.item .w1190 .container1 .link img {
+  width: 280px;
+  height: 187px;
+}
+.item .w1190 .container1 .link p {
+  margin-left: 15px;
+}
+.item .w1190 .container1 .link > .title {
+  margin-top: 10px;
+  width: 250px;
+  height: 42px;
+  color: #2a2a2a;
+  line-height: 22px;
+  font-size: 15px;
+}
+.item .w1190 .container1 .link > .label {
+  margin-top: 20px;
+}
+.item .w1190 .container1 .link > .label span {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 0 8px;
+  height: 23px;
+  color: #999;
+  line-height: 23px;
+  font-size: 12px;
+}
+.item .w1190 .container1 .link > .label span:hover {
+  background-color: #d2d2d2;
+}
+.item .w1190 .container1 .link .meter {
+  margin-left: 15px;
+  margin-top: 22px;
+  width: 250px;
+  height: 6px;
+  border-radius: 5px;
+  background-color: #c8c8c8;
+  overflow: hidden;
+}
+.item .w1190 .container1 .link .meter .meterIn {
+  width: 250px;
+  height: 6px;
+  border-radius: 5px;
+  background-color: #00ccce;
+}
+.item .w1190 .container1 .link .count {
+  margin-top: 14px;
+}
+.item .w1190 .container1 .link .count .section {
+  float: left;
+  display: block;
+  text-align: center;
+}
+.item .w1190 .container1 .link .count .section .value {
+  font-size: 14px;
+  line-height: 14px;
+  font-family: Arial;
+  color: #33338c;
+}
+.item .w1190 .container1 .link .count .section .value.one {
+  width: 42px;
+}
+.item .w1190 .container1 .link .count .section .value.two {
+  margin-left: 0px;
+  width: 144px;
+}
+.item .w1190 .container1 .link .count .section .value.three {
+  margin-left: 0px;
+  width: 55px;
+}
+.item .w1190 .container1 .link .count .section > .title {
+  margin-top: 5px;
+  color: #999;
+  font-size: 12px;
+  line-height: 12px;
+}
+.item .w1190 .container1 .link .count .section > .title.one {
+  width: 42px;
+}
+.item .w1190 .container1 .link .count .section > .title.two {
+  margin-left: 0px;
+  width: 144px;
+}
+.item .w1190 .container1 .link .count .section > .title.three {
+  margin-left: 0px;
+  width: 55px;
+}
+.item .w1190 .container1 .link.two {
+  margin-top: 20px;
+}
+.fixedNav {
+  position: fixed;
+  top: 382px;
+  right: 50px;
+  width: 30px;
+  height: 198px;
+  display: none;
+}
+.fixedNav .fixedText {
+  display: block;
+  height: 33px;
+  font-size: 12px;
+  line-height: 31px;
+  text-align: center;
+  color: #333;
+  border-bottom: 1px dashed #d2d2d2;
+}
+.fixedNav .fixedText.txt {
+  color: #fff;
+  background-color: #00ccce;
+}
