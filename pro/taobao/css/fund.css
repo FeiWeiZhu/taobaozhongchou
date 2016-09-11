@@ -608,6 +608,11 @@
 .item .w1190 .container1 .link.two {
   margin-top: 20px;
 }
+.btmDiv {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0,0,0,0.5);
+}
 .fixedNav {
   position: fixed;
   top: 382px;
@@ -623,6 +628,7 @@
   line-height: 31px;
   text-align: center;
   color: #333;
+  background-color: #fff;
   border-bottom: 1px dashed #d2d2d2;
 }
 .fixedNav .fixedText.txt {
