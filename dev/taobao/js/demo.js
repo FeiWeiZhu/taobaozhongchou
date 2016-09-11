@@ -38,9 +38,9 @@ var hot = [{"name":"1秒精准测温度计","label":"医疗级1秒精准测量�
 				"value":"1099%","image":"https://img.alicdn.com/tps/TB1g3MWKFXXXXaNXVXXXXXXXXXX-222-450.jpg_q90.jpg"}];
 	for(var i = 0;i < data.data.length;i++){
 		if(data.data[i].image.indexOf("http") < 0){
-			data.data[i].image = "https:" + data.data[i].image;
-			data.data[i].rate = parseInt(data.data[i].rate);
-		}	
+			data.data[i].image = "https:" + data.data[i].image;			
+		}
+		data.data[i].rate = parseInt(data.data[i].rate);
 	}
 	
 function adad(data){
