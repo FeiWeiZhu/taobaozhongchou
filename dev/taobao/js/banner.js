@@ -40,9 +40,9 @@
 	}).mouseleave(function(){
 		$(this).css("color","").css("background-color","");
 	})
-	$(".fixedText.one").click(function(){
-		$(this).css("color","").css("background-color","").addClass("txt").siblings().removeClass("txt");
-	});
+	// $(".fixedText.one").click(function(){
+	// 	$(this).css("color","").css("background-color","").addClass("txt").siblings().removeClass("txt");
+	// });
 	// console.log($(".fundDiv .fundDiv1 .container1").eq(0).offset());
 
 	$(".fixedText").eq(0).click(function(){
